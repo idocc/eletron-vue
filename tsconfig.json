@@ -7,6 +7,9 @@
     "esModuleInterop": true,
     "noImplicitAny": true,
     "sourceMap": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "baseUrl": ".",
     "outDir": "dist",
     "moduleResolution": "bundler",

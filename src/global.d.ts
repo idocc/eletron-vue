@@ -1,5 +1,8 @@
+/// <reference types="vite/client" />
+
 // 允许 TypeScript 识别样式文件导入。
 declare module '*.css';
+declare module '*.webp';
 
 // 允许 TypeScript 识别 Vue 单文件组件。
 declare module '*.vue' {
